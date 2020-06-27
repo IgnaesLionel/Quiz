@@ -9,7 +9,6 @@ import Login from '../Login'
 import SignUp from '../SignUp'
 import ErrorPage from '../ErrorPage'
 
-
 function App() {
   return (
     <Router>

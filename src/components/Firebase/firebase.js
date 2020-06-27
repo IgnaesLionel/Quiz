@@ -1,4 +1,4 @@
-import app from 'firebase'
+import app from 'firebase/app'
 import 'firebase/auth';
 
 const config = {
@@ -19,7 +19,7 @@ class Firebase {
 
   //inscription
   signupUser = (email, password) =>
-    this.auth.creatUserWithEmailAndPassword(email, password)
+    this.auth.createUserWithEmailAndPassword(email, password)
 
   // Connection
 
